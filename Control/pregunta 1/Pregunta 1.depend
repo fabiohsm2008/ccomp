@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1473432602 source:c:\users\alumno-a\desktop\control\control\main2.c
+	<stdio.h>
+
+1473432763 source:c:\users\alumno-a\desktop\control\control\main.c
+	<stdio.h>
+
+1473432470 source:c:\users\alumno-a\desktop\control\control\main3.c
+	<stdio.h>
+	<stdlib.h>
+
+1473432470 source:c:\users\alumno-a\desktop\control\control\main4.c
+	<stdio.h>
+	<stdlib.h>
+
+1473433272 source:c:\users\alumno-a\desktop\control\pregunta 1\main.c
+	<stdio.h>
+
+1473947262 source:e:\control\pregunta 1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1474037722 source:f:\control\pregunta 1\main.c
+	<stdio.h>
+	<stdlib.h>
+
