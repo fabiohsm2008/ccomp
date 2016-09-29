@@ -25,7 +25,7 @@ void strncat(char *s, char *t, int n)
     }
 }
 
-void strncmp(char *s, char *t, int n)
+int strncmp(char *s, char *t)
 {
     int conts = 0;
     int contt = 0;
@@ -33,7 +33,7 @@ void strncmp(char *s, char *t, int n)
         ++s;
         ++conts;
     }
-    while (*s != '\0'){
+    while (*t != '\0'){
         ++t;
         ++contt;
     }
@@ -46,9 +46,8 @@ int main()
     printf("%s\n",a);
     char b[100] = "Hola Mundo";
     printf("%s\n",b);
-    int n;
-    scanf("%d",&n);
-    strncmp(&a,&b,n);
-    printf("%s",a);
+    //int n;
+    //scanf("%d",&n);
+    printf("%d",strncmp(&a,&b));
     return 0;
 }
