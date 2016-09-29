@@ -3,18 +3,15 @@
 
 //Convertir a mayúscula con punteros
 
-int convertir(char a)
+int convertir(char *p)
 {
-    char m, *p;
-    p = &a;
-    m = *p ^ 32;
-    return m;
+    return *p ^ 32;
 }
 
 int main()
 {
     char minus;
     minus = getchar();
-    printf("%c",convertir(minus));
+    printf("%c",convertir(&minus));
     return 0;
 }
